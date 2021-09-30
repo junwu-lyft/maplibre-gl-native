@@ -1907,7 +1907,7 @@ CLLocationCoordinate2D randomWorldCoordinate(void) {
     
     /// Style that does not require an `apiKey` nor any further configuration
     [self.styleNames addObject:@"MapLibre Basic"];
-    [self.styleURLs addObject:[NSURL URLWithString:@"https://demotiles.maplibre.org/style.json"]];
+    [self.styleURLs addObject:[NSURL URLWithString:@"https://d34hkqyc0uusyp.cloudfront.net/styles/1:4.0.0:kym66n/light.json"]];
 
     /// Add Mapbox Styles if an `apiKey` exists
     NSString* apiKey = [MGLSettings apiKey];
